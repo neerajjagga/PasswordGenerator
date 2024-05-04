@@ -116,3 +116,19 @@ h1{
 #generateButton:hover{
     background-color: rgb(42, 109, 187);
 }
+@media screen and (max-width:400px){
+    h1{
+        font-size: 1.5rem;
+    }
+    .input-container{
+        width: 330px;
+        height: 330px;
+        padding: 1rem;
+    }
+    .display-container{
+        gap: 0rem;
+    }
+    #checkbox label{
+        font-size: 1.1rem;
+    }
+}
